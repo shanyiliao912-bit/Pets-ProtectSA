@@ -74,7 +74,7 @@ export const HomePage: React.FC<Props> = ({ onNavigate, onOpenEligibility, onOpe
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-4/3 lg:aspect-4/4">
                 <img
                   src={CAMPAIGN_IMAGES.hero}
-                  alt="Young Australian foster carer smiling with happy rescue dog in an Adelaide park"
+                  alt="Young Australian foster carer smiling with a majestic rescue Maremma Sheepdog in an Adelaide park"
                   className="w-full h-full object-cover"
                   loading="eager"
                   referrerPolicy="no-referrer"
