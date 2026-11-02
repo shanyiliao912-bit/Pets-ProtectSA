@@ -1,0 +1,6 @@
+{
+  "name": "Pets & Protect SA",
+  "description": "Adelaide social awareness campaign reducing animal shelter overcrowding through short-term pet fostering and flexible outdoor volunteering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
