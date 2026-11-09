@@ -51,7 +51,7 @@ export const FosterStoriesPage: React.FC<Props> = ({ onNavigate, onOpenContact }
       likes: 308,
       comments: 42,
       tag: 'Student Foster',
-      image: CAMPAIGN_IMAGES.catCozy
+      image: CAMPAIGN_IMAGES.catBrothers
     }
   ];
 
