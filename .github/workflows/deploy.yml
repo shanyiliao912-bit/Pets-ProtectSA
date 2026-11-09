@@ -33,9 +33,10 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
-        env:
-          VITE_BASE_PATH: '/Pets&Protect SA/'
         run: npm run build
+
+      - name: Create 404 fallback for GitHub Pages SPA
+        run: cp dist/index.html dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
